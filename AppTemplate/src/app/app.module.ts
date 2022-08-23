@@ -8,6 +8,8 @@ import { FooterComponent } from './core/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SidebarComponent } from './core/sidebar/sidebar.component';
 import { LandingComponent } from './shared/landing/landing.component';
+import { LoginComponent } from './shared/login/login.component';
+import { RegisterComponent } from './shared/register/register.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { LandingComponent } from './shared/landing/landing.component';
     HeaderComponent,
     FooterComponent,
     SidebarComponent,
-    LandingComponent
+    LandingComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
